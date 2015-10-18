@@ -12,6 +12,7 @@ body {
 
 body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #595866;
 
 }
 
@@ -52,12 +53,19 @@ h6 {
 }
 h2 {
     color: #595866;
+
 }
 
+h5 {
+
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
 
 p {
-    /*margin-bottom: 50px;*/
-    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-top: 15px;
     font-size: 16px;
     line-height: 1.5;
     font-style: italic;
@@ -79,7 +87,7 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 aside {
@@ -212,8 +220,9 @@ header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 250px;
+    font-weight: lighter;
     /*text-transform: uppercase;*/
-    font-weight: 700;
+    /*font-weight: 10;*/
     color: white;
     /*padding-left: 100px;*/
     /*background-color: #595866*/
@@ -234,7 +243,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 90%;
 
     }
 
